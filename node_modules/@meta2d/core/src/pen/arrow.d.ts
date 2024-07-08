@@ -1,0 +1,4 @@
+import { Meta2dStore } from '../store';
+import { Pen } from './model';
+export declare function renderFromArrow(ctx: CanvasRenderingContext2D, pen: Pen, store: Meta2dStore): void;
+export declare function renderToArrow(ctx: CanvasRenderingContext2D, pen: Pen, store: Meta2dStore): void;

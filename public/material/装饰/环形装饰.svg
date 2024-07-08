@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>环形装饰</title>
+    <defs>
+        <linearGradient x1="31.5647125%" y1="11.5550041%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#33EAFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#33EAFF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M32,0 C32,17.4963809 17.9582171,31.7131276 0.529178512,31.9957129 L0,32 L0,0 L32,0 Z" id="path-2"></path>
+        <filter x="-151.1%" y="-18.8%" width="402.1%" height="137.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="大屏可视化-案例" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="智慧楼宇" transform="translate(-76.000000, -524.000000)">
+            <g id="编组-13备份-15" transform="translate(40.000000, 416.000000)">
+                <g id="连接设备数量" transform="translate(24.000000, 96.000000)">
+                    <g id="环形装饰" transform="translate(13.000000, 13.000000)">
+                        <circle id="椭圆形" stroke="#33EAFF" opacity="0.049999997" cx="51" cy="51" r="51"></circle>
+                        <circle id="椭圆形" stroke="#33EAFF" opacity="0.200000003" cx="51" cy="51" r="32"></circle>
+                        <circle id="椭圆形" stroke="#33EAFF" opacity="0.200000003" cx="51" cy="51" r="28"></circle>
+                        <path d="M83,51 C83,68.4963809 68.9582171,82.7131276 51.5291785,82.9957129 L51,83 L51,51 L83,51 Z" id="路径" fill="url(#linearGradient-1)"></path>
+                        <g id="编组-11" transform="translate(51.000000, 51.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="路径" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                            <path d="M3.97171762,31.755939 C2.84141804,31.8958641 1.69284799,31.9768458 0.529178512,31.9957129 L3.15303339e-13,32 L3.15303339e-13,0 C2.64781174,21.170626 3.97171762,31.755939 3.97171762,31.755939 Z" id="路径" fill="#33EAFF" filter="url(#filter-4)" mask="url(#mask-3)"></path>
+                        </g>
+                        <circle id="椭圆形" stroke="#33EAFF" opacity="0.200000003" transform="translate(51.000000, 51.000000) scale(1, -1) translate(-51.000000, -51.000000) " cx="51" cy="51" r="4.5"></circle>
+                        <path d="M51,93 C74.1959595,93 93,74.1959595 93,51 C93,27.8040405 74.1959595,9 51,9 C27.8040405,9 9,27.8040405 9,51 C9,74.1959595 27.8040405,93 51,93 Z" id="椭圆形" stroke="#33EAFF" opacity="0.200000003" stroke-dasharray="40,80"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

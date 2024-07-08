@@ -1,0 +1,32 @@
+{
+  "name": "meta2d-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@meta2d/activity-diagram": "^1.0.0",
+    "@meta2d/chart-diagram": "^1.0.0",
+    "@meta2d/class-diagram": "^1.0.0",
+    "@meta2d/core": "^1.0.0",
+    "@meta2d/flow-diagram": "^1.0.0",
+    "@meta2d/form-diagram": "^1.0.0",
+    "@meta2d/fta-diagram": "^1.0.0",
+    "@meta2d/le5le-charts": "^1.0.0",
+    "@meta2d/sequence-diagram": "^1.0.0",
+    "@meta2d/svg": "^1.0.0",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}

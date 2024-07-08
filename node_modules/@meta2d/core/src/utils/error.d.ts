@@ -1,0 +1,2 @@
+import { Meta2dStore } from '../store';
+export declare function lockedError(store: Meta2dStore): void;
